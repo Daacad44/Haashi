@@ -1,11 +1,11 @@
-import Image from "next/image";
+import { SiteImage } from "./SiteImage";
 import { profile, site, socialLinks } from "@/lib/data";
 
 export function ProfileSidebar() {
   return (
     <aside className="profile-sidebar card-profile">
       <div className="profile-img-wrap">
-        <Image
+        <SiteImage
           src={profile.image}
           alt={profile.name}
           width={200}

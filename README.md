@@ -1,18 +1,14 @@
-# HashiTech Portfolio (Next.js Clone)
+# HashiTech Portfolio (Vite + React)
 
-Modern rebuild of [hashitech.great-site.net](https://hashitech.great-site.net/) — migrated from WordPress to **Next.js 16 + TypeScript + Tailwind CSS**.
+Modern rebuild of [hashitech.great-site.net](https://hashitech.great-site.net/) — **Vite 6**, **React 19**, **TypeScript**, **React Router**, and **Tailwind CSS 4**.
 
-## Why this stack is faster & more modern
+## Why Vite
 
-| WordPress | Next.js + TypeScript |
-|-----------|----------------------|
-| PHP + database on every page load | Static/SSR pages — minimal server work |
-| Heavy plugins & themes | Lean React components only |
-| No built-in image optimization | Automatic WebP/AVIF & lazy loading |
-| Slower Time to Interactive | Code splitting & prefetching |
-| Manual caching setup | Edge-ready on Vercel/CDN |
-
-**TypeScript** catches bugs before deploy. **React** gives reusable UI. **Tailwind** keeps styles consistent without bloated CSS files.
+| | Vite |
+|---|------|
+| Dev server | Instant HMR, no full-app rebuild |
+| Production | Rollup bundle — small, fast static `dist/` |
+| Deploy | Works on Vercel, Netlify, GitHub Pages, any static host |
 
 ## Run locally
 
@@ -21,53 +17,44 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:5173](http://localhost:5173).
 
-## Build for production
+## Build
 
 ```bash
 npm run build
-npm start
+npm run preview
 ```
+
+Output is in `dist/`.
+
+## Pages
+
+| Route | Description |
+|-------|-------------|
+| `/` | Home bento grid |
+| `/about` | About, stats, testimonials |
+| `/services` | Service cards |
+| `/service-details` | Webflow service detail & pricing |
+| `/works` | Project grid |
+| `/contact` | Contact form & map |
 
 ## Customize
 
 - Content: `src/lib/data.ts`
-- Colors & fonts: `src/app/globals.css`, `src/app/layout.tsx`
-- Add real project images in `public/` and update `Projects.tsx`
+- Styles: `src/styles/hashitech.css`, `src/globals.css`
+- Routes: `src/App.tsx`
 
 ## Deploy on Vercel
 
-This app is a standard **Next.js** project — Vercel runs `npm run build` and serves it on the edge CDN (same idea as the original WordPress host, but faster).
+1. Import [Daacad44/Haashi](https://github.com/Daacad44/Haashi) on [vercel.com](https://vercel.com).
+2. Framework preset: **Vite** (or Other — `npm run build`, output `dist`).
+3. Deploy. SPA rewrites are in `vercel.json`.
 
-### Option A — GitHub (recommended)
-
-1. Sign in at [vercel.com](https://vercel.com) with GitHub.
-2. **Add New Project** → import [Daacad44/Haashi](https://github.com/Daacad44/Haashi).
-3. Leave defaults: **Framework** Next.js, **Build Command** `npm run build`, **Output** automatic.
-4. Click **Deploy**. Every push to `main` redeploys.
-
-### Option B — Vercel CLI
-
-```bash
-npm i -g vercel
-vercel login
-vercel
-vercel --prod
-```
-
-No environment variables are required for this static portfolio.
-
-### Local scrape scripts (optional)
-
-Scraping uses Playwright and is **not** installed for production builds. To re-scrape the WordPress site locally:
+## Local scrape scripts (optional)
 
 ```bash
 npm install -D playwright
 npx playwright install chromium
 npm run scrape
 ```
-
-### Other hosts
-
-Any Node host that runs `npm run build` and `npm start` works the same way.

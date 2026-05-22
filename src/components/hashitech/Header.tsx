@@ -1,14 +1,11 @@
-"use client";
-
-import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { navItems, site } from "@/lib/data";
 import { NavIcon } from "./icons";
+import { SiteImage } from "./SiteImage";
 
 export function Header() {
-  const pathname = usePathname();
+  const { pathname } = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const isActive = (href: string) => {
@@ -19,8 +16,8 @@ export function Header() {
   return (
     <header className="site-header bento-wrap">
       <div className="header-section">
-        <Link href="/" className="header-logo" onClick={() => setMenuOpen(false)}>
-          <Image src="/images/logo-header.png" alt="Haashi" width={199} height={54} priority />
+        <Link to="/" className="header-logo" onClick={() => setMenuOpen(false)}>
+          <SiteImage src="/images/logo-header.png" alt="Haashi" width={199} height={54} priority />
         </Link>
 
         <button
@@ -40,7 +37,7 @@ export function Header() {
             {navItems.map((item) => (
               <li key={item.label}>
                 <Link
-                  href={item.href}
+                  to={item.href}
                   className={`nav-pill ${isActive(item.href) ? "active" : ""}`}
                   onClick={() => setMenuOpen(false)}
                 >
@@ -51,7 +48,7 @@ export function Header() {
             ))}
           </ul>
           <Link
-            href={site.contactUrl}
+            to={site.contactUrl}
             className="btn-el btn-shadow btn-header-talk nav-cta-mobile"
             onClick={() => setMenuOpen(false)}
           >
@@ -59,7 +56,7 @@ export function Header() {
           </Link>
         </nav>
 
-        <Link href={site.contactUrl} className="btn-el btn-shadow btn-header-talk nav-cta-desktop">
+        <Link to={site.contactUrl} className="btn-el btn-shadow btn-header-talk nav-cta-desktop">
           Let&apos;s Talk
         </Link>
       </div>

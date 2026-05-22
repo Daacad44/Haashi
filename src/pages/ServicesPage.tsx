@@ -1,20 +1,19 @@
-import type { Metadata } from "next";
-import Link from "next/link";
-import { Header } from "@/components/hashitech/Header";
-import { Footer } from "@/components/hashitech/Footer";
-import { PageLayout } from "@/components/hashitech/PageLayout";
+import { Link } from "react-router-dom";
 import { CollaborateCta } from "@/components/hashitech/CollaborateCta";
-import { servicesList } from "@/lib/data";
+import { Footer } from "@/components/hashitech/Footer";
+import { Header } from "@/components/hashitech/Header";
+import { PageLayout } from "@/components/hashitech/PageLayout";
+import { PageMeta } from "@/components/hashitech/PageMeta";
 import { ArrowIcon } from "@/components/hashitech/icons";
-
-export const metadata: Metadata = {
-  title: "Services – Code With Haashi",
-  description: "UI/UX design, branding, front-end development, Webflow, and mobile app design services.",
-};
+import { servicesList } from "@/lib/data";
 
 export default function ServicesPage() {
   return (
     <>
+      <PageMeta
+        title="Services – Code With Haashi"
+        description="UI/UX design, branding, front-end development, Webflow, and mobile app design services."
+      />
       <Header />
       <main>
         <PageLayout>
@@ -27,7 +26,7 @@ export default function ServicesPage() {
 
           <div className="services-page-grid">
             {servicesList.map((service) => (
-              <Link key={service.title} href={service.href} className="service-page-card service-item">
+              <Link key={service.title} to={service.href} className="service-page-card service-item">
                 <div className="service-page-card__head">
                   <span className="service-page-card__emoji">{service.emoji}</span>
                   <h3>{service.title}</h3>

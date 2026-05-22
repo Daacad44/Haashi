@@ -1,19 +1,18 @@
-import type { Metadata } from "next";
-import { Header } from "@/components/hashitech/Header";
-import { Footer } from "@/components/hashitech/Footer";
-import { PageLayout } from "@/components/hashitech/PageLayout";
 import { CollaborateCta } from "@/components/hashitech/CollaborateCta";
-import Image from "next/image";
+import { Footer } from "@/components/hashitech/Footer";
+import { Header } from "@/components/hashitech/Header";
+import { PageLayout } from "@/components/hashitech/PageLayout";
+import { PageMeta } from "@/components/hashitech/PageMeta";
+import { SiteImage } from "@/components/hashitech/SiteImage";
 import { aboutContent, testimonials } from "@/lib/data";
-
-export const metadata: Metadata = {
-  title: "About – Code With Haashi",
-  description: "Learn about Mohamett Haashi – front-end web developer and creative designer.",
-};
 
 export default function AboutPage() {
   return (
     <>
+      <PageMeta
+        title="About – Code With Haashi"
+        description="Learn about Mohamett Haashi – front-end web developer and creative designer."
+      />
       <Header />
       <main>
         <PageLayout>
@@ -41,7 +40,7 @@ export default function AboutPage() {
               {aboutContent.experienceAbout.map((exp) => (
                 <div key={exp.company} className="work-item">
                   <div className="work-item-left">
-                    <Image src={exp.image} alt={exp.company} width={40} height={40} />
+                    <SiteImage src={exp.image} alt={exp.company} width={40} height={40} />
                     <div>
                       <h3>{exp.company}</h3>
                       <p>{exp.role}</p>
@@ -58,7 +57,7 @@ export default function AboutPage() {
             <div className="expertise-grid">
               {aboutContent.expertiseAbout.map((item) => (
                 <div key={item.name} className="expertise-item">
-                  <Image src={item.image} alt={item.name} width={44} height={44} />
+                  <SiteImage src={item.image} alt={item.name} width={44} height={44} />
                   <span>{item.name}</span>
                 </div>
               ))}

@@ -1,20 +1,19 @@
-import type { Metadata } from "next";
-import { Header } from "@/components/hashitech/Header";
-import { Footer } from "@/components/hashitech/Footer";
-import { PageLayout } from "@/components/hashitech/PageLayout";
 import { CollaborateCta } from "@/components/hashitech/CollaborateCta";
+import { Footer } from "@/components/hashitech/Footer";
+import { Header } from "@/components/hashitech/Header";
+import { PageLayout } from "@/components/hashitech/PageLayout";
+import { PageMeta } from "@/components/hashitech/PageMeta";
 import { serviceDetails } from "@/lib/data";
-
-export const metadata: Metadata = {
-  title: "Service Details – Code With Haashi",
-  description: "Webflow design and development service details, pricing, and deliverables.",
-};
 
 export default function ServiceDetailsPage() {
   const d = serviceDetails;
 
   return (
     <>
+      <PageMeta
+        title="Service Details – Code With Haashi"
+        description="Webflow design and development service details, pricing, and deliverables."
+      />
       <Header />
       <main>
         <PageLayout>

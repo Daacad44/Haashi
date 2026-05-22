@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import {
   profile,
   socialLinks,
@@ -12,6 +11,7 @@ import {
 } from "@/lib/data";
 import { ServiceIcon } from "./icons";
 import { ProjectCard } from "./ProjectCard";
+import { SiteImage } from "./SiteImage";
 
 export function BentoGrid() {
   return (
@@ -20,7 +20,7 @@ export function BentoGrid() {
         <div className="bento-col-profile">
           <div className="card-profile">
             <div className="profile-img-wrap">
-              <Image
+              <SiteImage
                 src={profile.image}
                 alt={profile.name}
                 width={200}
@@ -98,7 +98,7 @@ export function BentoGrid() {
           <div className="panel-dark">
             <div className="panel-header">
               <h2>My Projects</h2>
-              <Link href={site.worksUrl} className="btn-el btn-link">
+              <Link to={site.worksUrl} className="btn-el btn-link">
                 See All
               </Link>
             </div>
@@ -114,7 +114,7 @@ export function BentoGrid() {
           <div className="panel-dark">
             <div className="panel-header services">
               <h2>Services I Offered</h2>
-              <Link href={site.servicesUrl} className="btn-el btn-link">
+              <Link to={site.servicesUrl} className="btn-el btn-link">
                 See All
               </Link>
             </div>
@@ -137,7 +137,7 @@ export function BentoGrid() {
             <div className="expertise-grid">
               {expertise.map((e) => (
                 <div key={e.name} className="expertise-item">
-                  <Image src={e.image} alt={e.name} width={44} height={44} />
+                  <SiteImage src={e.image} alt={e.name} width={44} height={44} />
                   <span>{e.name}</span>
                 </div>
               ))}
@@ -153,7 +153,7 @@ export function BentoGrid() {
             {experience.map((exp) => (
               <div key={exp.company} className="work-item">
                 <div className="work-item-left">
-                  <Image src={exp.image} alt={exp.company} width={40} height={40} />
+                  <SiteImage src={exp.image} alt={exp.company} width={40} height={40} />
                   <div>
                     <h3>{exp.company}</h3>
                     <p>{exp.role}</p>

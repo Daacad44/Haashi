@@ -1,18 +1,17 @@
-import type { Metadata } from "next";
-import { Header } from "@/components/hashitech/Header";
 import { Footer } from "@/components/hashitech/Footer";
+import { Header } from "@/components/hashitech/Header";
 import { PageLayout } from "@/components/hashitech/PageLayout";
+import { PageMeta } from "@/components/hashitech/PageMeta";
 import { ProjectCard } from "@/components/hashitech/ProjectCard";
 import { worksProjects } from "@/lib/data";
-
-export const metadata: Metadata = {
-  title: "Works – Code With Haashi",
-  description: "Portfolio of web design, mobile app, and branding projects by Mohamett Haashi.",
-};
 
 export default function WorksPage() {
   return (
     <>
+      <PageMeta
+        title="Works – Code With Haashi"
+        description="Portfolio of web design, mobile app, and branding projects by Mohamett Haashi."
+      />
       <Header />
       <main>
         <PageLayout>

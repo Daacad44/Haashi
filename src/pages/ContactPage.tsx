@@ -1,18 +1,17 @@
-import type { Metadata } from "next";
-import { Header } from "@/components/hashitech/Header";
-import { Footer } from "@/components/hashitech/Footer";
-import { PageLayout } from "@/components/hashitech/PageLayout";
 import { ContactForm } from "@/components/hashitech/ContactForm";
+import { Footer } from "@/components/hashitech/Footer";
+import { Header } from "@/components/hashitech/Header";
+import { PageLayout } from "@/components/hashitech/PageLayout";
+import { PageMeta } from "@/components/hashitech/PageMeta";
 import { contactInfo, site } from "@/lib/data";
-
-export const metadata: Metadata = {
-  title: "Contact – Code With Haashi",
-  description: "Get in touch with Mohamett Haashi for web design and development projects.",
-};
 
 export default function ContactPage() {
   return (
     <>
+      <PageMeta
+        title="Contact – Code With Haashi"
+        description="Get in touch with Mohamett Haashi for web design and development projects."
+      />
       <Header />
       <main>
         <PageLayout>
