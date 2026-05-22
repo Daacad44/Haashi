@@ -36,6 +36,38 @@ npm start
 - Colors & fonts: `src/app/globals.css`, `src/app/layout.tsx`
 - Add real project images in `public/` and update `Projects.tsx`
 
-## Deploy
+## Deploy on Vercel
 
-Deploy to [Vercel](https://vercel.com) (recommended for Next.js) or any Node host that supports `next start`.
+This app is a standard **Next.js** project — Vercel runs `npm run build` and serves it on the edge CDN (same idea as the original WordPress host, but faster).
+
+### Option A — GitHub (recommended)
+
+1. Sign in at [vercel.com](https://vercel.com) with GitHub.
+2. **Add New Project** → import [Daacad44/Haashi](https://github.com/Daacad44/Haashi).
+3. Leave defaults: **Framework** Next.js, **Build Command** `npm run build`, **Output** automatic.
+4. Click **Deploy**. Every push to `main` redeploys.
+
+### Option B — Vercel CLI
+
+```bash
+npm i -g vercel
+vercel login
+vercel
+vercel --prod
+```
+
+No environment variables are required for this static portfolio.
+
+### Local scrape scripts (optional)
+
+Scraping uses Playwright and is **not** installed for production builds. To re-scrape the WordPress site locally:
+
+```bash
+npm install -D playwright
+npx playwright install chromium
+npm run scrape
+```
+
+### Other hosts
+
+Any Node host that runs `npm run build` and `npm start` works the same way.
