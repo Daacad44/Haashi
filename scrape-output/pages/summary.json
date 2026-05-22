@@ -1,0 +1,344 @@
+[
+  {
+    "slug": "/",
+    "url": "https://hashitech.great-site.net",
+    "title": "Code With Haashi – Turning ideas into clean, creative code.",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Mohamett Haashi"
+      },
+      {
+        "tag": "H2",
+        "text": "Follow Me"
+      },
+      {
+        "tag": "H2",
+        "text": "My  Projects"
+      },
+      {
+        "tag": "H2",
+        "text": "Sass Product Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Travel Agency Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Creative Branding Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Mobile App UI Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Jawiil School App"
+      },
+      {
+        "tag": "H2",
+        "text": "Ajwa Restaurant App"
+      },
+      {
+        "tag": "H2",
+        "text": "Sameyso-Cv App"
+      },
+      {
+        "tag": "H2",
+        "text": "Services I Offered"
+      },
+      {
+        "tag": "H2",
+        "text": "My Expertise Area"
+      },
+      {
+        "tag": "H2",
+        "text": "Work Experience"
+      },
+      {
+        "tag": "H3",
+        "text": "Jawiil School"
+      },
+      {
+        "tag": "H2",
+        "text": "Oct 2025"
+      }
+    ]
+  },
+  {
+    "slug": "/about/",
+    "url": "https://hashitech.great-site.net/about/",
+    "title": "About – Code With Haashi",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Mohamett Haashi"
+      },
+      {
+        "tag": "H2",
+        "text": "Follow Me"
+      },
+      {
+        "tag": "H2",
+        "text": "Front-End Web Developer!"
+      },
+      {
+        "tag": "H2",
+        "text": "Work Experience"
+      },
+      {
+        "tag": "H3",
+        "text": "Jawiil School"
+      },
+      {
+        "tag": "H2",
+        "text": "Oct 2025"
+      },
+      {
+        "tag": "H3",
+        "text": "Ajwa App"
+      },
+      {
+        "tag": "H2",
+        "text": "Nov 2025"
+      },
+      {
+        "tag": "H3",
+        "text": "Idiiris Travel"
+      },
+      {
+        "tag": "H2",
+        "text": "Dec 2025"
+      },
+      {
+        "tag": "H2",
+        "text": "My Expertise Area"
+      },
+      {
+        "tag": "H2",
+        "text": "What Clients Say!"
+      },
+      {
+        "tag": "H2",
+        "text": "Collaborate, 👋 \ncreate amazing things together!"
+      }
+    ]
+  },
+  {
+    "slug": "/services/",
+    "url": "https://hashitech.great-site.net/services/",
+    "title": "Services – Code With Haashi",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Mohamett Haashi"
+      },
+      {
+        "tag": "H2",
+        "text": "Follow Me"
+      },
+      {
+        "tag": "H2",
+        "text": "Services I Offered"
+      },
+      {
+        "tag": "H3",
+        "text": "🖌️ UI/UX Design"
+      },
+      {
+        "tag": "H3",
+        "text": "🎨 Branding"
+      },
+      {
+        "tag": "H3",
+        "text": "🌐 Front-End Dev"
+      },
+      {
+        "tag": "H3",
+        "text": "⚡ Webflow Dev"
+      },
+      {
+        "tag": "H3",
+        "text": "📊 Dashboard Design"
+      },
+      {
+        "tag": "H3",
+        "text": "📱Mobile App Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Collaborate, 👋 \ncreate amazing things together!"
+      }
+    ]
+  },
+  {
+    "slug": "/service-details/",
+    "url": "https://hashitech.great-site.net/service-details/",
+    "title": "Service Details – Code With Haashi",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Mohamett Haashi"
+      },
+      {
+        "tag": "H2",
+        "text": "Follow Me"
+      },
+      {
+        "tag": "H3",
+        "text": "Figma To Webflow"
+      },
+      {
+        "tag": "H2",
+        "text": "Webflow design & development"
+      },
+      {
+        "tag": "H2",
+        "text": "Artist E-Commerce Portfolio"
+      },
+      {
+        "tag": "H2",
+        "text": "2 Weeks to 4 Weeks"
+      },
+      {
+        "tag": "H2",
+        "text": "Analysis - Performance and Responsiveness"
+      },
+      {
+        "tag": "H2",
+        "text": "Performance"
+      },
+      {
+        "tag": "H2",
+        "text": "Responsiveness"
+      },
+      {
+        "tag": "H2",
+        "text": "Problem - Site and Service Improvement"
+      },
+      {
+        "tag": "H2",
+        "text": "Site and Service Improvement"
+      },
+      {
+        "tag": "H2",
+        "text": "Single services Pricing"
+      },
+      {
+        "tag": "H3",
+        "text": "Landing Page"
+      },
+      {
+        "tag": "H3",
+        "text": "Full Website"
+      },
+      {
+        "tag": "H3",
+        "text": "Ecommerce Website"
+      }
+    ]
+  },
+  {
+    "slug": "/works/",
+    "url": "https://hashitech.great-site.net/works/",
+    "title": "Works – Code With Haashi",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Mohamett Haashi"
+      },
+      {
+        "tag": "H2",
+        "text": "Follow Me"
+      },
+      {
+        "tag": "H2",
+        "text": "My Projects"
+      },
+      {
+        "tag": "H2",
+        "text": "Sameyso-Cv App"
+      },
+      {
+        "tag": "H2",
+        "text": "Ajwa Restaurant App"
+      },
+      {
+        "tag": "H2",
+        "text": "Sass Product Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Travel Agency Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Creative Branding Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Mobile App UI Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Webfolow Development"
+      },
+      {
+        "tag": "H2",
+        "text": "Creative Logo Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Jawiil School App"
+      },
+      {
+        "tag": "H2",
+        "text": "Ajwa Restaurant App"
+      },
+      {
+        "tag": "H2",
+        "text": "Sass Product Design"
+      },
+      {
+        "tag": "H2",
+        "text": "Travel Agency Design"
+      }
+    ]
+  },
+  {
+    "slug": "/contact/",
+    "url": "https://hashitech.great-site.net/contact/",
+    "title": "Contact – Code With Haashi",
+    "headings": [
+      {
+        "tag": "H2",
+        "text": "Mohamett Haashi"
+      },
+      {
+        "tag": "H2",
+        "text": "Follow Me"
+      },
+      {
+        "tag": "H2",
+        "text": "Contact With Me"
+      },
+      {
+        "tag": "H3",
+        "text": "Phone"
+      },
+      {
+        "tag": "H3",
+        "text": "Email"
+      },
+      {
+        "tag": "H3",
+        "text": "Location"
+      },
+      {
+        "tag": "H3",
+        "text": "Assistance Hours"
+      }
+    ]
+  }
+]

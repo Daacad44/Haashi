@@ -1,0 +1,482 @@
+[
+  {
+    "text": "Skip to content",
+    "className": "skip-link screen-reader-text",
+    "color": "rgb(204, 51, 102)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(204, 51, 102)",
+    "hover": {
+      "color": "rgb(204, 51, 102)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(204, 51, 102)"
+    }
+  },
+  {
+    "text": "",
+    "className": "",
+    "color": "rgb(204, 51, 102)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(204, 51, 102)",
+    "hover": {
+      "color": "rgb(204, 51, 102)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(204, 51, 102)"
+    }
+  },
+  {
+    "text": "",
+    "className": "elementskit-menu-hamburger elementskit-menu-toggler",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(2, 1, 1, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "1px solid rgb(45, 111, 248)",
+    "hover": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(2, 1, 1, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "1px solid rgb(45, 111, 248)"
+    }
+  },
+  {
+    "text": "Home",
+    "className": "ekit-menu-nav-link active",
+    "color": "rgb(239, 245, 242)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(239, 245, 242)",
+    "hover": {
+      "color": "rgb(239, 245, 242)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(239, 245, 242)"
+    }
+  },
+  {
+    "text": "About",
+    "className": "ekit-menu-nav-link",
+    "color": "rgb(168, 168, 168)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(168, 168, 168)",
+    "hover": {
+      "color": "rgb(168, 168, 168)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(168, 168, 168)"
+    }
+  },
+  {
+    "text": "Services",
+    "className": "ekit-menu-nav-link ekit-menu-dropdown-toggle",
+    "color": "rgb(168, 168, 168)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(168, 168, 168)",
+    "hover": {
+      "color": "rgb(168, 168, 168)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(168, 168, 168)"
+    }
+  },
+  {
+    "text": "Service Details",
+    "className": " dropdown-item",
+    "color": "rgb(239, 245, 242)",
+    "backgroundColor": "rgb(41, 50, 65)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(239, 245, 242)",
+    "hover": {
+      "color": "rgb(239, 245, 242)",
+      "backgroundColor": "rgb(41, 50, 65)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(239, 245, 242)"
+    }
+  },
+  {
+    "text": "Works",
+    "className": "ekit-menu-nav-link",
+    "color": "rgb(168, 168, 168)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(168, 168, 168)",
+    "hover": {
+      "color": "rgb(168, 168, 168)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(168, 168, 168)"
+    }
+  },
+  {
+    "text": "X",
+    "className": "elementskit-menu-close elementskit-menu-toggler",
+    "color": "rgb(45, 111, 248)",
+    "backgroundColor": "rgba(2, 1, 1, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "1px solid rgb(45, 111, 248)",
+    "hover": {
+      "color": "rgb(45, 111, 248)",
+      "backgroundColor": "rgba(2, 1, 1, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "1px solid rgb(45, 111, 248)"
+    }
+  },
+  {
+    "text": "Let’s Talk",
+    "className": "elementor-button elementor-button-link elementor-size-sm",
+    "color": "rgb(239, 245, 242)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(239, 245, 242)",
+    "hover": {
+      "color": "rgb(239, 245, 242)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(239, 245, 242)"
+    }
+  },
+  {
+    "text": "Book a Call",
+    "className": "elementor-button elementor-button-link elementor-size-sm",
+    "color": "rgb(24, 29, 42)",
+    "backgroundColor": "rgb(241, 241, 241)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.075) 0px 32px 64px 0px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px 0px, rgba(8, 8, 8, 0.04) 0px 24px 24px 0px, rgba(8, 8, 8, 0.03) 0px 6px 13px 0px, rgba(8, 8, 8, 0.05) 0px 6px 4px 0px, rgba(8, 8, 8, 0.05) 0px 5px 1.5px 0px",
+    "border": "0px none rgb(24, 29, 42)",
+    "hover": {
+      "color": "rgb(24, 29, 42)",
+      "backgroundColor": "rgb(241, 241, 241)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.075) 0px 32px 64px 0px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px 0px, rgba(8, 8, 8, 0.04) 0px 24px 24px 0px, rgba(8, 8, 8, 0.03) 0px 6px 13px 0px, rgba(8, 8, 8, 0.05) 0px 6px 4px 0px, rgba(8, 8, 8, 0.05) 0px 5px 1.5px 0px",
+      "border": "0px none rgb(24, 29, 42)"
+    }
+  },
+  {
+    "text": "Send mail",
+    "className": "elementor-button elementor-button-link elementor-size-sm",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.075) 0px 32px 64px 0px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px 0px, rgba(8, 8, 8, 0.04) 0px 24px 24px 0px, rgba(8, 8, 8, 0.03) 0px 6px 13px 0px, rgba(8, 8, 8, 0.05) 0px 6px 4px 0px, rgba(8, 8, 8, 0.05) 0px 5px 1.5px 0px",
+    "border": "0px none rgb(255, 255, 255)",
+    "hover": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.075) 0px 32px 64px 0px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px 0px, rgba(8, 8, 8, 0.04) 0px 24px 24px 0px, rgba(8, 8, 8, 0.03) 0px 6px 13px 0px, rgba(8, 8, 8, 0.05) 0px 6px 4px 0px, rgba(8, 8, 8, 0.05) 0px 5px 1.5px 0px",
+      "border": "0px none rgb(255, 255, 255)"
+    }
+  },
+  {
+    "text": "Jki-facebook-f",
+    "className": "elementor-icon elementor-social-icon elementor-social-icon-jki-facebook-f elementor-animation-pop elementor-repeater-item-905fbf0",
+    "color": "rgb(105, 114, 125)",
+    "backgroundColor": "rgba(255, 255, 255, 0.5)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.1) 0px 8px 32px 0px",
+    "border": "1px solid rgb(253, 253, 253)",
+    "hover": {
+      "color": "rgb(105, 114, 125)",
+      "backgroundColor": "rgba(255, 255, 255, 0.5)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 8px 32px 0px",
+      "border": "1px solid rgb(253, 253, 253)"
+    }
+  },
+  {
+    "text": "X-twitter",
+    "className": "elementor-icon elementor-social-icon elementor-social-icon-x-twitter elementor-animation-pop elementor-repeater-item-a4f888f",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgba(255, 255, 255, 0.5)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.1) 0px 8px 32px 0px",
+    "border": "1px solid rgb(253, 253, 253)",
+    "hover": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgba(255, 255, 255, 0.5)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 8px 32px 0px",
+      "border": "1px solid rgb(253, 253, 253)"
+    }
+  },
+  {
+    "text": "",
+    "className": "elementor-icon elementor-social-icon elementor-social-icon- elementor-animation-pop elementor-repeater-item-87e3909",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgba(255, 255, 255, 0.5)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.1) 0px 8px 32px 0px",
+    "border": "1px solid rgb(253, 253, 253)",
+    "hover": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgba(255, 255, 255, 0.5)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 8px 32px 0px",
+      "border": "1px solid rgb(253, 253, 253)"
+    }
+  },
+  {
+    "text": "Linkedin-in",
+    "className": "elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-animation-pop elementor-repeater-item-592107e",
+    "color": "rgb(105, 114, 125)",
+    "backgroundColor": "rgba(255, 255, 255, 0.5)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.1) 0px 8px 32px 0px",
+    "border": "1px solid rgb(253, 253, 253)",
+    "hover": {
+      "color": "rgb(105, 114, 125)",
+      "backgroundColor": "rgba(255, 255, 255, 0.5)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 8px 32px 0px",
+      "border": "1px solid rgb(253, 253, 253)"
+    }
+  },
+  {
+    "text": "See All",
+    "className": "elementor-button elementor-button-link elementor-size-sm",
+    "color": "rgb(45, 111, 248)",
+    "backgroundColor": "rgba(45, 111, 248, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(45, 111, 248)",
+    "hover": {
+      "color": "rgb(45, 111, 248)",
+      "backgroundColor": "rgba(45, 111, 248, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(45, 111, 248)"
+    }
+  },
+  {
+    "text": "Sass Product Design\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t20",
+    "className": "elementor-element elementor-element-f554855 e-con-full projects-sec e-flex e-con e-child",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(51, 51, 51)",
+    "hover": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(51, 51, 51)"
+    }
+  },
+  {
+    "text": "Sass Product Design\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t20",
+    "className": "elementor-element elementor-element-62f1c41 e-con-full projects e-flex e-con e-child",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgb(40, 40, 40)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+    "border": "0px none rgb(51, 51, 51)",
+    "hover": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgb(40, 40, 40)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+      "border": "0px none rgb(51, 51, 51)"
+    }
+  },
+  {
+    "text": "",
+    "className": "elementor-button elementor-button-link elementor-size-sm",
+    "color": "rgb(45, 111, 248)",
+    "backgroundColor": "rgba(255, 255, 255, 0.11)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(45, 111, 248)",
+    "hover": {
+      "color": "rgb(45, 111, 248)",
+      "backgroundColor": "rgba(255, 255, 255, 0.11)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(45, 111, 248)"
+    }
+  },
+  {
+    "text": "Travel Agency Design\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t2",
+    "className": "elementor-element elementor-element-d4253ef e-con-full projects e-flex e-con e-child",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgb(40, 40, 40)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+    "border": "0px none rgb(51, 51, 51)",
+    "hover": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgb(40, 40, 40)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+      "border": "0px none rgb(51, 51, 51)"
+    }
+  },
+  {
+    "text": "",
+    "className": "",
+    "color": "rgb(204, 51, 102)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(204, 51, 102)",
+    "hover": {
+      "color": "rgb(204, 51, 102)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(204, 51, 102)"
+    }
+  },
+  {
+    "text": "",
+    "className": "elementor-button elementor-button-link elementor-size-sm",
+    "color": "rgb(45, 111, 248)",
+    "backgroundColor": "rgba(255, 255, 255, 0.11)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(45, 111, 248)",
+    "hover": {
+      "color": "rgb(45, 111, 248)",
+      "backgroundColor": "rgba(255, 255, 255, 0.11)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(45, 111, 248)"
+    }
+  },
+  {
+    "text": "Creative Branding Design\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t",
+    "className": "elementor-element elementor-element-9d5bbe3 e-con-full projects e-flex e-con e-child",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgb(40, 40, 40)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+    "border": "0px none rgb(51, 51, 51)",
+    "hover": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgb(40, 40, 40)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+      "border": "0px none rgb(51, 51, 51)"
+    }
+  },
+  {
+    "text": "",
+    "className": "elementor-button elementor-button-link elementor-size-sm",
+    "color": "rgb(45, 111, 248)",
+    "backgroundColor": "rgba(255, 255, 255, 0.11)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(45, 111, 248)",
+    "hover": {
+      "color": "rgb(45, 111, 248)",
+      "backgroundColor": "rgba(255, 255, 255, 0.11)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(45, 111, 248)"
+    }
+  },
+  {
+    "text": "Mobile App UI Design\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t2",
+    "className": "elementor-element elementor-element-9740f63 e-con-full projects e-flex e-con e-child",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgb(40, 40, 40)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+    "border": "0px none rgb(51, 51, 51)",
+    "hover": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgb(40, 40, 40)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+      "border": "0px none rgb(51, 51, 51)"
+    }
+  },
+  {
+    "text": "",
+    "className": "elementor-button elementor-button-link elementor-size-sm",
+    "color": "rgb(45, 111, 248)",
+    "backgroundColor": "rgba(255, 255, 255, 0.11)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(45, 111, 248)",
+    "hover": {
+      "color": "rgb(45, 111, 248)",
+      "backgroundColor": "rgba(255, 255, 255, 0.11)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(45, 111, 248)"
+    }
+  },
+  {
+    "text": "Jawiil School App\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t2025",
+    "className": "elementor-element elementor-element-c34871c e-con-full projects e-flex e-con e-child",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgb(40, 40, 40)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+    "border": "0px none rgb(51, 51, 51)",
+    "hover": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgb(40, 40, 40)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+      "border": "0px none rgb(51, 51, 51)"
+    }
+  },
+  {
+    "text": "",
+    "className": "elementor-button elementor-button-link elementor-size-sm",
+    "color": "rgb(45, 111, 248)",
+    "backgroundColor": "rgba(255, 255, 255, 0.11)",
+    "transform": "none",
+    "boxShadow": "none",
+    "border": "0px none rgb(45, 111, 248)",
+    "hover": {
+      "color": "rgb(45, 111, 248)",
+      "backgroundColor": "rgba(255, 255, 255, 0.11)",
+      "transform": "none",
+      "boxShadow": "none",
+      "border": "0px none rgb(45, 111, 248)"
+    }
+  },
+  {
+    "text": "Ajwa Restaurant App\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t20",
+    "className": "elementor-element elementor-element-73641d6 e-con-full projects e-flex e-con e-child",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgb(40, 40, 40)",
+    "transform": "none",
+    "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+    "border": "0px none rgb(51, 51, 51)",
+    "hover": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgb(40, 40, 40)",
+      "transform": "none",
+      "boxShadow": "rgba(0, 0, 0, 0.5) 0px 16px 24px -13px, rgba(0, 0, 0, 0.25) 0px 2.15px 0.5px -2px, rgba(8, 8, 8, 0.2) 0px 5px 1.5px -4px, rgba(8, 8, 8, 0.16) 0px 6px 4px -4px, rgba(8, 8, 8, 0.12) 0px 6px 13px 0px, rgba(8, 8, 8, 0.08) 0px 24px 24px -16px, rgba(253, 253, 253, 0.05) 2px 4px 16px 0px inset",
+      "border": "0px none rgb(51, 51, 51)"
+    }
+  }
+]
