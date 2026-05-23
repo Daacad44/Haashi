@@ -872,6 +872,22 @@
   top: 20px;
 }
 
+/* Desktop: sidebar height fits content only (no empty stretch) */
+@media (min-width: 1201px) {
+  .page-layout-grid .profile-sidebar {
+    height: auto;
+    align-self: start;
+  }
+
+  .bento-col-profile {
+    align-self: flex-start;
+  }
+
+  .bento-col-profile .card-profile {
+    height: auto;
+  }
+}
+
 .page-hero {
   padding: 32px;
 }
